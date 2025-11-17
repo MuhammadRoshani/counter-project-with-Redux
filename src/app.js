@@ -1,5 +1,5 @@
-// redux
-import * as Redux from '../node_modules/redux/dist/redux.browser.mjs'
+// redux cdn
+import * as Redux from 'https://unpkg.com/redux@latest/dist/redux.browser.mjs'
 import { incActionCreator, decActionCreator, resetActionCreator } from './Redux/actionCreators.js'
 import { incrementAction, decrementAction, resetAction } from './Redux/actionTypes.js'
 
